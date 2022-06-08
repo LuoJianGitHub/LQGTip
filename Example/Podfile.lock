@@ -1,0 +1,45 @@
+PODS:
+  - LQGBaseModel (1.0.0):
+    - YYModel
+  - LQGBaseView/BaseView (1.0.0):
+    - LQGBaseView/Protocol
+  - LQGBaseView/Protocol (1.0.0)
+  - LQGCategory (1.0.0)
+  - LQGMacro (1.0.0)
+  - LQGTip (1.0.0):
+    - LQGBaseModel
+    - LQGBaseView/BaseView
+    - LQGCategory
+    - LQGMacro
+    - Masonry
+  - Masonry (1.1.0)
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - LQGTip (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - LQGBaseModel
+    - LQGBaseView
+    - LQGCategory
+    - LQGMacro
+    - Masonry
+    - YYModel
+
+EXTERNAL SOURCES:
+  LQGTip:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LQGBaseModel: e7da52a706eb046e3c45276596cc77cbe1ab1777
+  LQGBaseView: 1bd9188e1671d7f0926a172df2a201f7749c8543
+  LQGCategory: d06e3e77818efa42e810aeebc493f3cb122522aa
+  LQGMacro: 83996fc0371fe853771123e3dc879908765bc44a
+  LQGTip: 5b52aa76aecdda394e5fbdcc27414c13230de610
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: c72964d7e9db72b1da57b02546822ced87286948
+
+COCOAPODS: 1.11.2
